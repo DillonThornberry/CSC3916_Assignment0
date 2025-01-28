@@ -1,0 +1,40 @@
+Response headers:
+    'content-type': 'application/json; charset=UTF-8'
+    The type of content sent - A JSON object with 8-bit UTF characters
+
+    vary: 'Origin, X-Origin, Referer'
+    Which headers will vary the response from the server
+
+    date: 'Tue, 28 Jan 2025 00:30:35 GMT'
+    Date/time response was made
+
+    server: 'ESF'
+    Type of server used: ESF
+
+    'x-xss-protection': '0'
+    Whether to use cross-site scripting protection: none
+
+    'x-frame-options': 'SAMEORIGIN'
+    Whether response can be embedded in an iframe: yes if same origin
+
+    'x-content-type-options': 'nosniff'
+    Only treat as filetype specified (JSON) instead of sniffing it out
+
+    'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'
+    Supported HTTP versions, max age to cache
+
+    'transfer-encoding': 'chunked'
+    Response sent in chunks rather than one single packet
+
+Request headers:
+    Accept: 'application/json, text/plain, */*'
+    These types of responses are accepted
+
+    'Content-Type': undefined
+    No specified content type for request
+
+    'User-Agent': 'axios/1.7.9'
+    The agent making the request
+
+    'Accept-Encoding': 'gzip, compress, deflate, br'
+    Types of encoding accepted in the request
